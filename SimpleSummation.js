@@ -19,6 +19,7 @@ function main(input) {
 	console.log(parseInt(data[0]) + parseInt(data[1]));
 }
 
+//This code for Code-Mama playground
 let input = "";
 process.stdin.on("data", (chunk) => {
 	input += chunk;

@@ -22,6 +22,7 @@ function main(input) {
 	console.log(parseInt(a));
 }
 
+//This code for Code-Mama playground
 let input = "";
 process.stdin.on("data", (chunk) => {
 	input += chunk;

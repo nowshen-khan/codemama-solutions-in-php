@@ -19,6 +19,7 @@ function main(input) {
 	console.log(`The temperature in Fahrenheit is: ${F.toFixed(2)}`);
 }
 
+//This code for Code-Mama playground
 let input = "";
 process.stdin.on("data", (chunk) => {
 	input += chunk;

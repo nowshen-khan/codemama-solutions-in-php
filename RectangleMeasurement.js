@@ -21,6 +21,7 @@ function main(input) {
 	console.log(a * b);
 }
 
+//This code for Code-Mama playground
 let input = "";
 process.stdin.on("data", (chunk) => {
 	input += chunk;

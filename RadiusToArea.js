@@ -20,7 +20,7 @@ function main(input) {
 	console.log(`The area of the circle is ${area.toFixed(2)} square units.`);
 }
 
-//This code for Code-Mama answer submit
+//This code for Code-Mama playground
 let input = "";
 process.stdin.on("data", (chunk) => {
 	input += chunk;

@@ -24,6 +24,7 @@ function main(input) {
 	console.log(`Average: ${avg.toFixed(2)}`);
 }
 
+//This code for Code-Mama playground
 let input = "";
 process.stdin.on("data", (chunk) => {
 	input += chunk;

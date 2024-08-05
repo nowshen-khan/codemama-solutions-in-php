@@ -28,6 +28,7 @@ function main(input) {
 	console.log(`After swapping: num1 = ${num1}, num2 = ${num2}`);
 }
 
+//This code for Code-Mama playground
 let input = "";
 process.stdin.on("data", (chunk) => {
 	input += chunk;

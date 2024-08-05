@@ -19,6 +19,7 @@ function main(input) {
 	console.log(data.length);
 }
 
+//This code for Code-Mama playground
 let input = "";
 process.stdin.on("data", (chunk) => {
 	input += chunk;
