@@ -1,4 +1,5 @@
-/**
+<?php
+/*
  * Celsius to Fahrenheit
 
 Problem Statement: Write a program to convert temperature from Celsius to Fahrenheit.
@@ -11,20 +12,10 @@ Input: 32
 Output: The temperature in Fahrenheit is: 89.60
  */
 
-function main(input) {
-	/**
-	 * Write JavaScript code from here
-	 */
-	const F = input * (9 / 5) + 32;
-	console.log(`The temperature in Fahrenheit is: ${F.toFixed(2)}`);
-}
 
-//This code for Code-Mama playground
-let input = "";
-process.stdin.on("data", (chunk) => {
-	input += chunk;
-});
-
-process.stdin.on("end", () => {
-	main(input.trim());
-});
+# Write your PHP code from here
+//fgets [used for scan line by line]
+// fscanf [used for scan string to string]
+$celsius  = fgets(STDIN);
+$fahrenheit = (($input * 9 / 5) + 32);
+printf("The temperature in Fahrenheit is: %.2f", $fahrenheit);
